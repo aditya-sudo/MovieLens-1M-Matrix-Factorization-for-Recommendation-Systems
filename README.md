@@ -1,26 +1,47 @@
-📘 Project Title: MovieLens 1M – Matrix Factorization for Recommendation Systems
-🔍 Description
-This project involves building a movie recommendation system using matrix factorization techniques on the MovieLens 1M dataset. The primary objective was to implement and evaluate a collaborative filtering approach using latent factor models, specifically Singular Value Decomposition (SVD), to predict user ratings and recommend movies effectively.
+# 🎬 MovieLens 1M – Matrix Factorization for Recommendation Systems
 
-🧠 Key Features
-Data Processing: Loaded and explored ratings.dat from the MovieLens 1M dataset using pandas to extract user, movie, rating, and timestamp information.
+## 📌 Project Overview
 
-Exploratory Data Analysis: Identified patterns in user behavior and rating distributions, and analyzed dataset dimensions including unique users and movies.
+This project implements a collaborative filtering recommendation system using **matrix factorization techniques** on the [MovieLens 1M dataset](https://grouplens.org/datasets/movielens/1m/). The system predicts user ratings for movies based on learned latent features.
 
-Matrix Factorization: Built a recommendation model using matrix factorization (with gradient descent optimization), decomposing the user-item interaction matrix.
+## 🚀 Key Objectives
 
-Model Evaluation: Assessed the model using metrics like RMSE and visualized the prediction performance.
+- Load and preprocess large-scale movie rating data.
+- Analyze rating patterns and data distributions.
+- Build a matrix factorization model using Singular Value Decomposition (SVD).
+- Train the model with gradient descent optimization.
+- Evaluate model performance using RMSE and visualize results.
 
-🛠️ Tools & Technologies
-Python (NumPy, pandas, matplotlib)
+## 🧪 Technologies Used
 
-Jupyter Notebook
+- Python
+- Pandas & NumPy
+- Matplotlib
+- Jupyter Notebook
 
-MovieLens 1M Dataset
+## 📊 Dataset
 
-🌱 Learning Outcomes
-Hands-on experience with collaborative filtering and matrix factorization.
+- **Source:** MovieLens 1M
+- **Description:** Includes 1 million ratings from 6,000 users on 4,000 movies.
+- **File Used:** `ratings.dat` containing `UserID`, `MovieID`, `Rating`, and `Timestamp`.
 
-Gained insight into real-world recommendation system challenges.
+## 📈 Results
 
-Strengthened understanding of Python libraries for data analysis and machine learning prototyping.
+- Extracted latent user and movie features via SVD.
+- Achieved meaningful predictions of user preferences.
+- Demonstrated the power of collaborative filtering in real-world recommendation systems.
+
+## 📚 Learning Outcomes
+
+- Hands-on experience with matrix factorization and optimization techniques.
+- Improved understanding of recommender system architecture.
+- Practical knowledge of evaluating predictive models in Python.
+
+## 📎 Author
+
+Aditya Ketanbhai Shah
+
+---
+
+> ⚙️ This project was part of a machine learning course assignment focused on real-world implementation of recommendation algorithms.
+
